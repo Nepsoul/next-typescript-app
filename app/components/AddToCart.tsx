@@ -4,9 +4,9 @@ import React from 'react'
 const AddtoCart = () => {
   return (
     <div>
-        <button onClick={()=>{console.log("click")}}>Add to Cart</button>
+        <button className='btn btn-primary' onClick={()=>{console.log("click")}}>Add to Cart</button>
     </div>
   )
 }
 
-export default AddtoCart
+export default AddtoCart;

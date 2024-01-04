@@ -1,12 +1,11 @@
-"use client"  //to convert entire component/event handler into client component
-
 import React from "react";
+import AddtoCart from "./AddToCart";
+import styles from "./ProductCard.module.css";
 
 const ProductCard=()=>{
-    return (<div>
-        <div>ProductCard</div>
-        <button onClick={()=>{console.log("click")}}>Add to Cart</button>
-        </div>)
+    return (
+        <div className={styles.card}><AddtoCart/></div>
+        )
 }
 
 export default ProductCard;
